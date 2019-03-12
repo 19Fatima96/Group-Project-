@@ -1,15 +1,10 @@
-.navbar-brand {
-  display:flex;
-}
 
 
-body, html {
-  height: 100%;
-}
-
-body{
-
+.section {
+  min-height: 10vh;
+  width: 100vw;
   /* The image used */
+  height: 625px;
   background-image:
   linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -39,4 +34,18 @@ body{
 #About-Us-Btn {
   background: rgb(232, 153, 164);
 }
+
+.section1 {
+  min-height: 10vh;
+  width: 100vw;
+  height: 625px;
+  /* The image used */
+  background-color: orange;
+  position: relative;
+}
+
+.about-us-title {
+  position: absolute;
+  left: 0px;
+  top: -70px;
 }

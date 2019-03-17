@@ -1,5 +1,9 @@
 
 
+html {
+  scroll-behavior: smooth;
+}
+
 .section {
   min-height: 10vh;
   width: 100vw;
@@ -51,6 +55,7 @@
   color: white;
   margin-left: 45%;
   margin-top: 1%;
+  text-align: center;
 }
 
 #about-us {
@@ -69,6 +74,8 @@
 
 }
 
+
+
 #f-f-s {
   min-height: 10vh;
   width: 100vw;
@@ -83,4 +90,85 @@
     background-repeat:no-repeat;
     background-size: cover;
 
+}
+
+
+#contact-us {
+  min-height: 10vh;
+  width: 100vw;
+  /* The image used */
+  height: 700px;
+  background-image:
+  linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(yoga_ansty.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+
+
+.navbar-scroll {
+	padding: 0;
+	transition-duration: 0.6s;
+}
+
+.entry1 {
+  margin: 30px;
+  background-color: white;
+  border: 1px solid black;
+  opacity: 0.6;
+
+  position: absolute;
+  left: -300px;
+  width: 750px;
+  top: 100px;
+
+}
+
+.entry1 p {
+  margin: 5%;
+  font-weight: bold;
+  color: black;
+  font-size: 0.5em
+
+}
+
+.entry2 {
+  margin: 30px;
+  background-color: white;
+  border: 1px solid black;
+  opacity: 0.6;
+
+  position: absolute;
+  left: 300px;
+  width: 700px;
+  top: 100px;
+
+}
+
+.entry2 p {
+  margin: 7%;
+  font-weight: bold;
+  color: black;
+  font-size: 1em;
+
+}
+
+#mail-list {
+  background-color: #d9534f;
+  min-height: 10vh;
+  width: 100vw;
+  height: 700px;
+
+}
+
+#mail-list-title {
+  margin-left: 400px;
+}
+
+.center-form {
+  text-align: center;
 }

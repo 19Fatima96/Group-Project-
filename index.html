@@ -2,13 +2,13 @@
 <html>
 <head>
   <title>Female Fitness Hub</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <nav class="navbar navbar-expand-md navbar-dark bg-danger fixed-top">
 
     <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target" aria-controls="collapse_target" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +20,7 @@
 
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active mx-lg-1">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item mx-lg-1">
         <a class="nav-link" href="#about-us">About Us</a>
@@ -31,6 +31,8 @@
       <li class="nav-item mx-lg-1">
         <a class="nav-link" href="#contact-us">Contact Us</a>
       </li>
+      <li class="nav-item mx-lg-1">
+        <a class="nav-link" href="#mail-list">Mailing List</a>
     </ul>
     </div>
 </nav>
@@ -39,7 +41,7 @@
 <br>
 <br>
 
-<div class="section">
+<div class="section" id="home">
 <div class="intro"  >
   <h2>
     <strong>
@@ -57,11 +59,18 @@
       <strong>
       About Us
     </strong>
+    <div class ="entry1">
 
-  </div>
+          <p>  We are a group of girls from East london who study either Mathematics or Medicine at Queen Mary University.
+            What we have in common, is a great passion for sports and fitness. We believe it is essential for females to participate in sports and fitness activities as it is beneficial for them not only on a physical level but also on a psychological and social level.<br> <br>
+
+          However we have found that a lot of women in East london are holding themselves back from partaking in such activites as they are not comfortable in the mixed environments in which these activities take place. <br><br>
+
+
+          We have dedicated this page to locating all the female-only fitness and sports activities taking place in East london so that all women may participate in sporting activities of their choice in an environment they are comfortable in. <p>
+    </div>
 </div>
-  </h2>
-</div>
+
 
 <div class="subsections" id="f-f-s">
   <h2 class="subsection-titles"> Find a fitness space </h2>
@@ -69,31 +78,47 @@
 
 <div class="subsections" id="contact-us">
   <h2 class="subsection-titles"> Contact Us </h2>
-    <div class="emailaddress">
+    <div class="emailaddress entry2">
       <p>
         You can reach us on our e-mail address for any business enquiries: thisgirlcan@codefirstgirls.com
-      </div>
-
     </p>
-    <div class="contactdetails">
-      <p>
+    <p>
         If you would like to follow our fitness progress on social media...
-        <ul>
-          <li>Fatima </li>
-           <a href="facebook.com"><i class="fab fa-facebook"></i></a>
-           <a href="instagram.com"><i class="fab fa-instagram"></i></a>
-          <li>Andrea </li>
+      <ul>
+        <li>Fatima </li>
           <a href="facebook.com"><i class="fab fa-facebook"></i></a>
           <a href="instagram.com"><i class="fab fa-instagram"></i></a>
-          <li>Aisha </li>
+        <li>Andrea </li>
           <a href="facebook.com"><i class="fab fa-facebook"></i></a>
           <a href="instagram.com"><i class="fab fa-instagram"></i></a>
-          <li>Ruqayyah </li>
+        <li>Aisha </li>
           <a href="facebook.com"><i class="fab fa-facebook"></i></a>
           <a href="instagram.com"><i class="fab fa-instagram"></i></a>
-        </ul>
-      </p>
-    </div>
+        <li>Ruqayyah </li>
+          <a href="facebook.com"><i class="fab fa-facebook"></i></a>
+          <a href="instagram.com"><i class="fab fa-instagram"></i></a>
+      </ul>
+    </p>
+  </div>
+</div>
+
+
+<div class="center-form">
+<form action="action_page.php">
+  <div class="container">
+    <h2>Sign up to our mailing list for updates!</h2>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+  </div>
+  <br>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
 </div>
 
 
@@ -102,6 +127,9 @@
 
 
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 

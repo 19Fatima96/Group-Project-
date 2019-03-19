@@ -2,17 +2,24 @@
 $(document).ready(function(){
 /*! Fades in page on load */
   $('.intro').css('display', 'none');
-  $('.intro').fadeIn(1000);
+  $('.intro').fadeIn(1300);
 });
 
-$(function(){
-	var navbar = $('.navbar');
 
-	$(window).scroll(function(){
-		if($(window).scrollTop() <= 40){
-			navbar.removeClass('navbar-scroll');
-		} else {
-			navbar.addClass('navbar-scroll');
-		}
-	});
+
+$(window).on("load",function() {
+  $(window).scroll(function() {
+    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    $(".hideme").each(function() {
+      /* Check the location of each desired element */
+      var objectBottom = $(this).offset().top + $(this).outerHeight();
+
+      /* If the element is completely within bounds of the window, fade it in */
+      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+        if ($(this).css("opacity")==0) {$(this).fadeTo(900,0.6);}
+      } else { //object goes out of view (scrolling up)
+        if ($(this).css("opacity")==0.6) {$(this).fadeTo(900,0);}
+      }
+    });
+  }).scroll(); //invoke scroll-handler on page-load
 });

@@ -122,8 +122,8 @@ html {
   opacity: 0.6;
 
   position: absolute;
-  left: -300px;
-  width: 750px;
+  left: -345px;
+  width: 60vw;
   top: 100px;
 
 }
@@ -143,8 +143,8 @@ html {
   opacity: 0.6;
 
   position: absolute;
-  left: 300px;
-  width: 700px;
+  left: 310px;
+  width: 50vw;
   top: 100px;
 
 }
@@ -157,18 +157,30 @@ html {
 
 }
 
-#mail-list {
-  background-color: #d9534f;
-  min-height: 10vh;
-  width: 100vw;
-  height: 700px;
 
-}
-
-#mail-list-title {
-  margin-left: 400px;
-}
 
 .center-form {
   text-align: center;
+  min-height: 10vh;
+  width: 100vw;
+  /* The image used */
+  height: 160px;
+  background-color: #dc3545;
+}
+
+
+.mailing-list-title {
+  color: white;
+
+}
+
+
+
+
+ul {
+margin-left: 18px;
+}
+
+li {
+  line-height: 2;
 }

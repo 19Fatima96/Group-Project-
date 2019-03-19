@@ -91,7 +91,12 @@ html {
     background-size: cover;
 
 }
-
+.map {
+  position: absolute;
+  left: 450px;
+  width: 1000vw;
+  top: 150px;
+}
 
 #contact-us {
   min-height: 10vh;

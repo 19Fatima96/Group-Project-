@@ -1,5 +1,9 @@
 
 
+html {
+  scroll-behavior: smooth;
+}
+
 .section {
   min-height: 10vh;
   width: 100vw;
@@ -21,7 +25,7 @@
   .intro {
       position: absolute;
       width: 700px;
-      margin-left: 21%;
+      margin-left: 27%;
       margin-top: 5%;
       font-weight: bolder;
       color: white;
@@ -35,7 +39,7 @@
   background: rgb(232, 153, 164);
 }
 
-.section1 {
+.subsections {
   min-height: 10vh;
   width: 100vw;
   height: 625px;
@@ -44,8 +48,139 @@
   position: relative;
 }
 
-.about-us-title {
+.subsection-titles {
   position: absolute;
   left: 0px;
-  top: -70px;
+  top: 70px;
+  color: white;
+  margin-left: 45%;
+  margin-top: 1%;
+  text-align: center;
+}
+
+#about-us {
+  min-height: 10vh;
+  width: 100vw;
+
+  height: 700px;
+  background-image:
+  linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(start-line.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+
+
+
+#f-f-s {
+  min-height: 10vh;
+  width: 100vw;
+  /* The image used */
+  height: 700px;
+  background-image:
+  linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(gym.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+
+
+#contact-us {
+  min-height: 10vh;
+  width: 100vw;
+  /* The image used */
+  height: 700px;
+  background-image:
+  linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(yoga_ansty.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+
+
+.navbar-scroll {
+	padding: 0;
+	transition-duration: 0.6s;
+}
+
+.entry1 {
+  margin: 30px;
+  background-color: white;
+  border: 1px solid black;
+  opacity: 0.6;
+
+  position: absolute;
+  left: -345px;
+  width: 60vw;
+  top: 100px;
+
+}
+
+.entry1 p {
+  margin: 5%;
+  font-weight: bold;
+  color: black;
+  font-size: 0.5em
+
+}
+
+.entry2 {
+  margin: 30px;
+  background-color: white;
+  border: 1px solid black;
+  opacity: 0.6;
+
+  position: absolute;
+  left: 310px;
+  width: 50vw;
+  top: 100px;
+
+}
+
+.entry2 p {
+  margin: 7%;
+  font-weight: bold;
+  color: black;
+  font-size: 1em;
+
+}
+
+
+
+.center-form {
+  text-align: center;
+  min-height: 10vh;
+  width: 100vw;
+  /* The image used */
+  height: 160px;
+  background-color: #dc3545;
+}
+
+
+.mailing-list-title {
+  color: white;
+
+}
+
+
+
+
+ul {
+margin-left: 18px;
+}
+
+li {
+  line-height: 2;
 }

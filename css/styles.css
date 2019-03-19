@@ -58,6 +58,10 @@ html {
   text-align: center;
 }
 
+#f-f-s-title {
+  margin-left: 500px;
+}
+
 #about-us {
   min-height: 10vh;
   width: 100vw;
@@ -93,7 +97,7 @@ html {
 }
 .map {
   position: absolute;
-  left: 450px;
+  left: 325px;
   width: 1000vw;
   top: 150px;
 }
@@ -182,8 +186,6 @@ html {
 .hideme {
   opacity:0;
 }
-
-
 
 ul {
 margin-left: 18px;
